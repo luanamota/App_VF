@@ -1,0 +1,46 @@
+<!--
+  Generated template for the Questionario1Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+    <ion-navbar>
+      <ion-title>Iniciando a Jornada</ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content>
+    <ion-grid>
+  
+        <ion-row>
+            <ion-col>
+              <img src="assets/imgs/balao6.png">
+      
+            </ion-col>
+          </ion-row>
+          <ion-row text-center>
+              <ion-col >
+               <p ion-text color="light">Selecione uma opção</p>
+              </ion-col>
+            </ion-row>
+      <ion-card (tap)="gonext()">
+        <ion-card-content text-center>
+            Nunca me aventurei em nada/somente poupança.
+        </ion-card-content>
+      </ion-card>
+      <ion-card>
+        <ion-card-content text-center>
+            Possuo alguma experiência: Renda Fixa, Tesouro Direto e Fundos.
+        </ion-card-content>
+      </ion-card>
+      <ion-card>
+        <ion-card-content text-center>
+            Tenho um bom conhecimento e estou familiarizado com Fundos, Ações
+e Derivativos.
+        </ion-card-content>
+      </ion-card>
+  
+  
+    </ion-grid>
+  </ion-content>

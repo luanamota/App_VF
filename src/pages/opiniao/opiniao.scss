@@ -1,0 +1,32 @@
+page-opiniao {
+    .content-ios {
+        color: #000;
+        background-image: linear-gradient(to right, #db4d5b, #8f2d73);
+      }
+    
+      .content-md {
+        color: #000;
+        background-image: linear-gradient(to right, #db4d5b, #8f2d73);
+      }
+      ion-header {
+        .toolbar {
+       //   position: absolute;
+       
+          .toolbar-background {
+            background: transparent;
+          }
+          .toolbar-title {
+            color: white;
+          }
+        }
+      }
+
+      ion-select {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        overflow: hidden;
+        max-width: 100%;
+    }
+}

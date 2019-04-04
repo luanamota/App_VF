@@ -1,13 +1,23 @@
 page-login {
   .content-ios {
     color: #000;
-    background-image: linear-gradient(#db4d5b, #8f2d73);
+    background-image: linear-gradient(to right, #db4d5b, #8f2d73);
+  }
+
+  .content-md {
+    color: #000;
+    background-image: linear-gradient(to right, #db4d5b, #8f2d73);
   }
 
 
+  #text_login{
+
+    font-size: 41px;
+      margin: 0px;
+  }
 
   #img_logo{
-    width: 50% !important;
+    width: 80% !important;
   }
   #row_logo{
     padding-top: 80px;

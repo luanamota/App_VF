@@ -13,6 +13,13 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { LoginPage } from '../pages/login/login';
+import { CadastroPage } from '../pages/cadastro/cadastro';
+import { IdadePage } from '../pages/idade/idade';
+import { Questionario1Page } from '../pages/questionario1/questionario1';
+import { RendaPage } from '../pages/renda/renda';
+import { Questionario2Page } from '../pages/questionario2/questionario2';
+import { PerfilquestionarioPage } from '../pages/perfilquestionario/perfilquestionario';
+import { OpiniaoPage } from '../pages/opiniao/opiniao';
 
 @NgModule({
   declarations: [
@@ -21,8 +28,15 @@ import { LoginPage } from '../pages/login/login';
     ContactPage,
     HomePage,
     TabsPage,
-    LoginPage
-  ],
+    LoginPage,
+    CadastroPage,
+    IdadePage,
+    Questionario1Page,
+    Questionario2Page,
+    RendaPage,
+    PerfilquestionarioPage,
+    OpiniaoPage
+  ], 
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp, {
@@ -32,7 +46,7 @@ import { LoginPage } from '../pages/login/login';
     }),
     HttpModule
 
-  ],
+  ], 
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
@@ -40,7 +54,14 @@ import { LoginPage } from '../pages/login/login';
     ContactPage,
     HomePage,
     TabsPage,
-    LoginPage
+    LoginPage,
+    CadastroPage,
+    IdadePage,
+    Questionario1Page,
+    Questionario2Page,
+    RendaPage,
+    PerfilquestionarioPage,
+    OpiniaoPage
   ],
   providers: [
     StatusBar,
