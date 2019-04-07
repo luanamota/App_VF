@@ -1,0 +1,93 @@
+ 
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Dados Bancários </ion-title>
+  </ion-navbar>
+
+</ion-header>
+ 
+<ion-content class="outer-content">
+  <ion-list> 
+    
+ 
+  </ion-list>
+ 
+  <ion-list> 
+    <ion-item>
+      <ion-label floating>Banco</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item> 
+  </ion-list>
+  <ion-list> 
+    
+ 
+  </ion-list>
+ 
+  <ion-list>  
+    <ion-item>
+      <ion-label floating>Tipo de Conta</ion-label>
+      <ion-select>
+        <ion-option>Conta Corrente</ion-option>
+        <ion-option>Poupança</ion-option>
+        <ion-option>Conjunta</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Agência (sem dígito)</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Conta (sem dígito)</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Dígito Conta</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Titularidade</ion-label> 
+      <ion-input type="text" value="Sou o 1º titular"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Titularidade</ion-label> 
+      <ion-input type="text" value="Sou o 2º titular"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Nome completo do titular</ion-label> 
+      <ion-input type="text" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>CPF do titular</ion-label> 
+      <ion-input type="text"></ion-input>
+    </ion-item>
+     
+  </ion-list>
+
+  <ion-list> 
+    
+ 
+  </ion-list>
+ 
+  <ion-list> 
+      <ion-list-header>
+          Dados Financeiros
+        </ion-list-header>
+        <ion-item>
+            <ion-label floating>Valor Renda</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item> 
+          <ion-item>
+              <ion-label floating>Valor Aprox. dos Bens</ion-label>
+              <ion-input type="text"></ion-input>
+            </ion-item> 
+            <div padding>
+               - Investimentos, saldos em conta, imóveis e/ou vículos. <br>
+               - Informações obrigatórias por lei. <br><br>
+               <a href="http://www.cvm.gov.br/legislacao/instrucoes/inst506.html" target="_blank">Instruções CVM 506</a>
+            </div>
+  </ion-list>
+ 
+  <button ion-button block color="danger">Salvar</button>
+</ion-content>

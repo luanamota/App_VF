@@ -1,0 +1,95 @@
+
+<!-- - Apelido
+- Nome Completo
+- CPF
+- Sexo (Option Tab Masculino/Feminino)
+- Data de Aniversário (com modelo data do iPhone).
+- Cidade de nascimento
+- Estado
+- Nacionalidade (Option Tab Brasileiro(a) Nato(a)/ Brasileiro(a)
+Naturalizado(a)/ Estrangeiro)
+- Ocupação/Profissão
+- Empresa onde trabalha
+- Escolaridade (Option Tab Fundamental/Médio/Técnico/Superior/Pós
+Graduação ou Especialização/ Mestrado ou Doutorado)
+- Estado Civil
+- Nome completo da mãe -->
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Dados Pessoais</ion-title>
+  </ion-navbar>
+
+</ion-header>
+ 
+<ion-content class="outer-content">
+  <ion-list> 
+    
+ 
+  </ion-list>
+  <ion-list> 
+    <ion-item>
+      <ion-label floating>Apelido</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Nome Completo</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>CPF</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Sexo</ion-label> 
+      <ion-select>
+        <ion-option>Masculino</ion-option>
+        <ion-option>Feminino</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Data de Aniversário</ion-label>
+      <ion-datetime displayFormat="DD MM YYYY"  doneText="Feito"></ion-datetime>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Cidade de nascimento</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Estado</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item> 
+    <ion-item>
+      <ion-label floating>Nacionalidade</ion-label>
+      <ion-select>
+        <ion-option>Brasileiro(a) Nato(a)</ion-option>
+        <ion-option>Brasileiro(a) Naturalizado(a)</ion-option>
+        <ion-option>Estrangeiro</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Ocupação/Profissão</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Empresa onde trabalha</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Escolaridade</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Estado Civil</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Nome completo da mãe</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+  
+  
+  </ion-list>
+  <button ion-button block color="danger">Salvar</button>
+</ion-content>

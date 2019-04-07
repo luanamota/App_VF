@@ -1,0 +1,14 @@
+page-dadosbancarios {
+    ion-header {
+        .toolbar {
+       //   position: absolute;
+       
+          .toolbar-background {
+            background-image: linear-gradient(to right, #db4d5b, #8f2d73);
+          }
+          .toolbar-title {
+            color: white;
+          }
+        }
+      }
+}

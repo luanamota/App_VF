@@ -1,6 +1,6 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
+import { IonicApp, IonicModule, IonicErrorHandler, Menu } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HttpModule } from '@angular/http';
 import 'rxjs/add/operator/map';
@@ -20,6 +20,14 @@ import { RendaPage } from '../pages/renda/renda';
 import { Questionario2Page } from '../pages/questionario2/questionario2';
 import { PerfilquestionarioPage } from '../pages/perfilquestionario/perfilquestionario';
 import { OpiniaoPage } from '../pages/opiniao/opiniao';
+import { DadoscadastraisPage } from '../pages/dadoscadastrais/dadoscadastrais';
+import { DadospessoaisPage } from '../pages/dadospessoais/dadospessoais';
+import { MinhacontaPage } from '../pages/minhaconta/minhaconta'; 
+import { AjustesPage } from '../pages/ajustes/ajustes';
+import { EnderecotelefonePage } from '../pages/enderecotelefone/enderecotelefone';
+import { DadosbancariosPage } from '../pages/dadosbancarios/dadosbancarios';
+import { ListabancoPage } from '../pages/listabanco/listabanco';
+import { DocumentosPage } from '../pages/documentos/documentos';
 
 @NgModule({
   declarations: [
@@ -35,7 +43,15 @@ import { OpiniaoPage } from '../pages/opiniao/opiniao';
     Questionario2Page,
     RendaPage,
     PerfilquestionarioPage,
-    OpiniaoPage
+    OpiniaoPage,
+    AjustesPage,
+    DadoscadastraisPage,
+    DadospessoaisPage,
+    MinhacontaPage,
+    EnderecotelefonePage,
+    DadosbancariosPage,
+    ListabancoPage,
+    DocumentosPage
   ], 
   imports: [
     BrowserModule,
@@ -49,7 +65,7 @@ import { OpiniaoPage } from '../pages/opiniao/opiniao';
   ], 
   bootstrap: [IonicApp],
   entryComponents: [
-    MyApp,
+    MyApp, 
     AboutPage,
     ContactPage,
     HomePage,
@@ -61,7 +77,15 @@ import { OpiniaoPage } from '../pages/opiniao/opiniao';
     Questionario2Page,
     RendaPage,
     PerfilquestionarioPage,
-    OpiniaoPage
+    OpiniaoPage, 
+    AjustesPage,
+    DadoscadastraisPage,
+    DadospessoaisPage,
+    MinhacontaPage,
+    EnderecotelefonePage,
+    DadosbancariosPage,
+    ListabancoPage,
+    DocumentosPage
   ],
   providers: [
     StatusBar,

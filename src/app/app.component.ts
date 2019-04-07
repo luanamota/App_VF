@@ -10,10 +10,13 @@ import { IdadePage } from '../pages/idade/idade';
 import { Questionario1Page } from '../pages/questionario1/questionario1';
 import { RendaPage } from '../pages/renda/renda';
 import { Questionario2Page } from '../pages/questionario2/questionario2';
-import { PerfilquestionarioPage } from '../pages/perfilquestionario/perfilquestionario';
+import { PerfilquestionarioPage } from '../pages/perfilquestionario/perfilquestionario'; 
+import { AjustesPage } from '../pages/ajustes/ajustes';
+import { MinhacontaPage } from '../pages/minhaconta/minhaconta';
+import { DadospessoaisPage } from '../pages/dadospessoais/dadospessoais';
 
-@Component({
-  templateUrl: 'app.html'
+@Component({ 
+  templateUrl: 'app.html' 
 })
 export class MyApp {
   rootPage:any = LoginPage; 
