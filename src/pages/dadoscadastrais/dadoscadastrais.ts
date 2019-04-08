@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { DadospessoaisPage } from '../dadospessoais/dadospessoais';
+import { EnderecotelefonePage } from '../enderecotelefone/enderecotelefone';
+import { DadosbancariosPage } from '../dadosbancarios/dadosbancarios';
+import { DocumentosPage } from '../documentos/documentos';
 
 /**
  * Generated class for the DadoscadastraisPage page.
@@ -25,5 +28,14 @@ export class DadoscadastraisPage {
 
   godadospessoais(){
     this.navCtrl.push(DadospessoaisPage);
+  }
+  goenderecotelefone(){
+    this.navCtrl.push(EnderecotelefonePage); 
+  }
+  godadosbancarios(){
+    this.navCtrl.push(DadosbancariosPage);
+  }
+  godocumentos(){
+    this.navCtrl.push(DocumentosPage);
   }
 }

@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, AlertController } from 'ionic-angular';
+import { Questionario1Page } from '../questionario1/questionario1';
+import { AjustesPage } from '../ajustes/ajustes';
 
 /**
  * Generated class for the LoginPage page.
@@ -26,6 +28,11 @@ export class LoginPage {
 
   goLogin(){
       console.log(this.email+ ' , ' + this.senha);
+      this.navCtrl.push(Questionario1Page);
+  }
+
+  goConfiguracao(){
+    this.navCtrl.push(AjustesPage);
   }
 
   goAlert(){
