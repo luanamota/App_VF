@@ -1,3 +1,4 @@
+import { ReservaPage } from './../reserva/reserva';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
@@ -23,6 +24,6 @@ export class ObjetivosPage {
   }
 
   goPro(){
-    this.navCtrl.popAll();
+    this.navCtrl.push(ReservaPage);
   }
 }
