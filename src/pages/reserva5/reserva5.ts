@@ -22,4 +22,8 @@ export class Reserva5Page {
     console.log('ionViewDidLoad Reserva5Page');
   }
 
+  goPro(){
+    this.navCtrl.popAll();
+  }
+
 }

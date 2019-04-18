@@ -10,6 +10,23 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-
+<ion-content >
+    <ion-grid style="margin-top: 100px;">
+    
+        <ion-row text-center>
+            <ion-col
+            > <h1 ion-text color="light">Nome do seu objetivo</h1></ion-col>
+        </ion-row>
+         
+        <ion-row padding-top text-center>
+          <ion-col
+            ><ion-item> 
+          
+              <ion-input type="text" [(ngModel)]="text" value="Reserva de Emergência" ></ion-input> </ion-item
+          ></ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col><button ion-button color="dark" block (tap)="goPro()">Próximo</button></ion-col>
+          </ion-row> 
+      </ion-grid>
 </ion-content>

@@ -10,6 +10,25 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
+  <ion-grid style="margin-top: 100px;">
 
+    <ion-row text-center>
+      <ion-col>
+        <h1 ion-text color="light">Quanto pretende investir inicialmente?<br>Mínimo R$100,00</h1>
+      </ion-col>
+    </ion-row>
+
+    <ion-row padding-top text-center>
+      <ion-col>
+        <ion-item>
+          <span ion-text color="light"></span>
+          <ion-input type="text" [(ngModel)]="text" placeholder="R$..."></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col><button ion-button color="dark" block (tap)="goPro()">Continuar</button></ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

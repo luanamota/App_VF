@@ -14,6 +14,7 @@ import { PerfilquestionarioPage } from '../pages/perfilquestionario/perfilquesti
 import { AjustesPage } from '../pages/ajustes/ajustes';
 import { MinhacontaPage } from '../pages/minhaconta/minhaconta';
 import { DadospessoaisPage } from '../pages/dadospessoais/dadospessoais';
+import { ReservaPage } from '../pages/reserva/reserva';
 
 @Component({ 
   templateUrl: 'app.html' 

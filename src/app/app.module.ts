@@ -45,6 +45,11 @@ import { ObjetivosPage } from '../pages/objetivos/objetivos';
 import { EditarcarteiraPage } from '../pages/editarcarteira/editarcarteira';
 import { EditarcarteiraopcaoPage } from '../pages/editarcarteiraopcao/editarcarteiraopcao';
 import { EditarcarteirafinalPage } from '../pages/editarcarteirafinal/editarcarteirafinal';
+import { ReservaPage } from '../pages/reserva/reserva';
+import { Reserva2Page } from '../pages/reserva2/reserva2';
+import { Reserva3Page } from '../pages/reserva3/reserva3';
+import { Reserva4Page } from '../pages/reserva4/reserva4';
+import { Reserva5Page } from '../pages/reserva5/reserva5';
 
 @NgModule({
   declarations: [
@@ -85,7 +90,12 @@ import { EditarcarteirafinalPage } from '../pages/editarcarteirafinal/editarcart
     ObjetivosPage,
     EditarcarteiraPage,
     EditarcarteiraopcaoPage,
-    EditarcarteirafinalPage
+    EditarcarteirafinalPage,
+    ReservaPage,
+    Reserva2Page,
+    Reserva3Page,
+    Reserva4Page,
+    Reserva5Page
     
   ], 
   imports: [
@@ -137,7 +147,12 @@ import { EditarcarteirafinalPage } from '../pages/editarcarteirafinal/editarcart
     ObjetivosPage,
     EditarcarteiraPage,
     EditarcarteiraopcaoPage,
-    EditarcarteirafinalPage
+    EditarcarteirafinalPage,
+    ReservaPage,
+    Reserva2Page,
+    Reserva3Page,
+    Reserva4Page,
+    Reserva5Page
   ],
   providers: [
     StatusBar,

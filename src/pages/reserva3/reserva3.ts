@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Reserva4Page } from '../reserva4/reserva4';
 
 /**
  * Generated class for the Reserva3Page page.
@@ -20,6 +21,10 @@ export class Reserva3Page {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Reserva3Page');
+  }
+
+  goPro(){
+    this.navCtrl.push(Reserva4Page);
   }
 
 }

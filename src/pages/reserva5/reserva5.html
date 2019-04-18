@@ -10,6 +10,29 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-
+<ion-content >
+    <ion-grid style="margin-top: 100px;">
+    
+        <ion-row text-center>
+            <ion-col
+            > <h1 ion-text color="light">Parabéns!<br>Objetivo Criado!</h1></ion-col>
+        </ion-row>
+        <ion-row text-center>
+            <ion-col
+            > <h2 ion-text color="light">Reserva de emergência: 0%</h2></ion-col>
+        </ion-row>
+        <ion-row text-center>
+            <ion-col
+            > <h2 ion-text color="light">Rendimentos: 0%</h2></ion-col>
+        </ion-row>
+        <ion-row text-center>
+            <ion-col
+            > <h2 ion-text color="light">Prazo<br>x anos</h2></ion-col>
+        </ion-row>
+         
+       
+        <ion-row>
+            <ion-col><button ion-button color="dark" block (tap)="goPro()">Avançar</button></ion-col>
+          </ion-row> 
+      </ion-grid>
 </ion-content>

@@ -10,6 +10,33 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
+  <ion-grid style="margin-top: 100px;">
 
+    <ion-row text-center>
+      <ion-col>
+        <h1 ion-text color="light">Qual o período que deseja acumular os R$ x</h1>
+      </ion-col>
+    </ion-row>
+
+    <ion-row padding-top text-center>
+      <ion-col>
+        <ion-item>
+          <ion-label floating>Selecione</ion-label>
+          <ion-datetime displayFormat="DD MM YYYY" doneText="Feito"></ion-datetime>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row padding-top text-center>
+      <ion-col>
+        
+          <button ion-button color="light">6 meses</button><button ion-button color="light">1 ano</button><button
+            ion-button color="light">2 anos</button><button ion-button color="light">5 anos</button>
+       
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col><button ion-button color="dark" block (tap)="goPro()">Próximo</button></ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
