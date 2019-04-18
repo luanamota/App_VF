@@ -1,0 +1,35 @@
+<!--
+  Generated template for the Objetivopt7Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>objetivopt7</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+    <ion-grid style="margin-top: 100px;">
+    
+        <ion-row text-center>
+            <ion-col
+            > <h1 ion-text color="light">Qual o valor pretende investir todo mês neste objetivo?</h1></ion-col>
+        </ion-row>
+         
+        <ion-row padding-top text-center>
+          <ion-col
+            ><ion-item> 
+              <span ion-text color="light"></span>
+              <ion-input type="text" [(ngModel)]="text"  placeholder="Digite aqui..."></ion-input> </ion-item
+          ></ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col><button ion-button color="dark" block (tap)="goPro()">Continuar</button></ion-col>
+          </ion-row> 
+          <ion-row text-center>
+              <ion-col><p>Investimentos mensais são opcionais, mas te ajudam a chegar mais rápido.</p></ion-col>
+            </ion-row> 
+      </ion-grid>
+</ion-content>

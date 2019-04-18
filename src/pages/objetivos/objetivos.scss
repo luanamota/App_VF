@@ -1,0 +1,23 @@
+page-objetivos {
+    .content-ios {
+        color: #000;
+        background-image: linear-gradient(to right, #db4d5b, #8f2d73);
+      }
+    
+      .content-md {
+        color: #000;
+        background-image: linear-gradient(to right, #db4d5b, #8f2d73);
+      }
+      ion-header {
+        .toolbar {
+       //   position: absolute;
+       
+          .toolbar-background {
+            background: transparent;
+          }
+          .toolbar-title {
+            color: white;
+          }
+        }
+      }
+}

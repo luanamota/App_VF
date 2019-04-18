@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { DadoscadastraisPage } from '../dadoscadastrais/dadoscadastrais';
+import { PerfildeinvestimentoPage } from '../perfildeinvestimento/perfildeinvestimento';
+import { MudaremailPage } from '../mudaremail/mudaremail';
+import { TrocarsenhaPage } from '../trocarsenha/trocarsenha';
 
 /**
  * Generated class for the MinhacontaPage page.
@@ -26,5 +29,16 @@ export class MinhacontaPage {
   godadoscadastrais(){
     this.navCtrl.push(DadoscadastraisPage);
   }
+  goperfilinvestimento(){
+    this.navCtrl.push(PerfildeinvestimentoPage);
+  }
+  gomudaremail(){
+    this.navCtrl.push(MudaremailPage);
+  }
+
+  gomudarsenha(){
+    this.navCtrl.push(TrocarsenhaPage);
+  }
+ 
 
 }

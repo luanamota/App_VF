@@ -28,6 +28,23 @@ import { EnderecotelefonePage } from '../pages/enderecotelefone/enderecotelefone
 import { DadosbancariosPage } from '../pages/dadosbancarios/dadosbancarios';
 import { ListabancoPage } from '../pages/listabanco/listabanco';
 import { DocumentosPage } from '../pages/documentos/documentos';
+import { MudaremailPage } from '../pages/mudaremail/mudaremail';
+import { NotificacoesPage } from '../pages/notificacoes/notificacoes';
+import { TrocarsenhaPage } from '../pages/trocarsenha/trocarsenha';
+import { PerfildeinvestimentoPage } from '../pages/perfildeinvestimento/perfildeinvestimento';
+import { ConfigurarnotificacaoPage } from '../pages/configurarnotificacao/configurarnotificacao';
+import { AvaliarappPage } from '../pages/avaliarapp/avaliarapp';
+import { Objetivopt1Page } from '../pages/objetivopt1/objetivopt1';
+import { Objetivopt2Page } from '../pages/objetivopt2/objetivopt2';
+import { Objetivopt3Page } from '../pages/objetivopt3/objetivopt3';
+import { Objetivopt4Page } from '../pages/objetivopt4/objetivopt4';
+import { Objetivopt5Page } from '../pages/objetivopt5/objetivopt5';
+import { Objetivopt6Page } from '../pages/objetivopt6/objetivopt6';
+import { Objetivopt7Page } from '../pages/objetivopt7/objetivopt7';
+import { ObjetivosPage } from '../pages/objetivos/objetivos';
+import { EditarcarteiraPage } from '../pages/editarcarteira/editarcarteira';
+import { EditarcarteiraopcaoPage } from '../pages/editarcarteiraopcao/editarcarteiraopcao';
+import { EditarcarteirafinalPage } from '../pages/editarcarteirafinal/editarcarteirafinal';
 
 @NgModule({
   declarations: [
@@ -51,7 +68,25 @@ import { DocumentosPage } from '../pages/documentos/documentos';
     EnderecotelefonePage,
     DadosbancariosPage,
     ListabancoPage,
-    DocumentosPage
+    DocumentosPage,
+    MudaremailPage,
+    NotificacoesPage,
+    TrocarsenhaPage,
+    PerfildeinvestimentoPage,
+    ConfigurarnotificacaoPage,
+    AvaliarappPage,
+    Objetivopt1Page,
+    Objetivopt2Page,
+    Objetivopt3Page,
+    Objetivopt4Page,
+    Objetivopt5Page,
+    Objetivopt6Page,
+    Objetivopt7Page,
+    ObjetivosPage,
+    EditarcarteiraPage,
+    EditarcarteiraopcaoPage,
+    EditarcarteirafinalPage
+    
   ], 
   imports: [
     BrowserModule,
@@ -85,7 +120,24 @@ import { DocumentosPage } from '../pages/documentos/documentos';
     EnderecotelefonePage,
     DadosbancariosPage,
     ListabancoPage,
-    DocumentosPage
+    DocumentosPage, 
+    MudaremailPage,
+    NotificacoesPage,
+    TrocarsenhaPage,
+    PerfildeinvestimentoPage,
+    ConfigurarnotificacaoPage,
+    AvaliarappPage,
+    Objetivopt1Page,
+    Objetivopt2Page,
+    Objetivopt3Page,
+    Objetivopt4Page,
+    Objetivopt5Page,
+    Objetivopt6Page,
+    Objetivopt7Page,
+    ObjetivosPage,
+    EditarcarteiraPage,
+    EditarcarteiraopcaoPage,
+    EditarcarteirafinalPage
   ],
   providers: [
     StatusBar,

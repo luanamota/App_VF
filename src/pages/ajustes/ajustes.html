@@ -16,13 +16,15 @@
     <button ion-item (tap)="gominhaconta()"> 
       <ion-label>Minha Conta<br>nome completo</ion-label> 
     </button>
-    <button ion-item> 
+    <button ion-item (tap)="gonotificacao()"> 
       <ion-label>Notificações</ion-label> 
     </button>
+    <a href="http://clinicadoenriquecer.com.br/category/faq/" target="blank">
     <button ion-item> 
+      
       <ion-label>FAQ</ion-label> 
-    </button>
-    <button ion-item> 
+    </button></a>
+    <button ion-item (tap)="gocontato()"> 
       <ion-label>Contato</ion-label> 
     </button>
     <button ion-item> 
@@ -32,9 +34,12 @@
   </ion-list>
 
   <ion-list> 
-    <button ion-item> 
-      <ion-label >Acessar TouchID</ion-label> 
-    </button>
+   
+      <ion-item>
+          <ion-label fixed style="min-width: 100%;">Acessar com o TouchID</ion-label>
+          <ion-toggle checked="true"></ion-toggle>
+        </ion-item>
+    
   </ion-list>
 
   <ion-list>

@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { MinhacontaPage } from '../minhaconta/minhaconta';
+import { NotificacoesPage } from '../notificacoes/notificacoes';
+import { ContactPage } from '../contact/contact';
 
 /**
  * Generated class for the AjustesPage page.
@@ -25,6 +27,14 @@ export class AjustesPage {
 
   gominhaconta(){
     this.navCtrl.push(MinhacontaPage);
+  }
+
+  gonotificacao(){
+    this.navCtrl.push(NotificacoesPage);
+  }
+
+  gocontato(){
+    this.navCtrl.push(ContactPage);
   }
 
 }
