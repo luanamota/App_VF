@@ -22,7 +22,7 @@ import { PerfilquestionarioPage } from '../pages/perfilquestionario/perfilquesti
 import { OpiniaoPage } from '../pages/opiniao/opiniao';
 import { DadoscadastraisPage } from '../pages/dadoscadastrais/dadoscadastrais';
 import { DadospessoaisPage } from '../pages/dadospessoais/dadospessoais';
-import { MinhacontaPage } from '../pages/minhaconta/minhaconta'; 
+import { MinhacontaPage } from '../pages/minhaconta/minhaconta';
 import { AjustesPage } from '../pages/ajustes/ajustes';
 import { EnderecotelefonePage } from '../pages/enderecotelefone/enderecotelefone';
 import { DadosbancariosPage } from '../pages/dadosbancarios/dadosbancarios';
@@ -96,8 +96,8 @@ import { Reserva5Page } from '../pages/reserva5/reserva5';
     Reserva3Page,
     Reserva4Page,
     Reserva5Page
-    
-  ], 
+
+  ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp, {
@@ -107,10 +107,10 @@ import { Reserva5Page } from '../pages/reserva5/reserva5';
     }),
     HttpModule
 
-  ], 
+  ],
   bootstrap: [IonicApp],
   entryComponents: [
-    MyApp, 
+    MyApp,
     AboutPage,
     ContactPage,
     HomePage,
@@ -122,7 +122,7 @@ import { Reserva5Page } from '../pages/reserva5/reserva5';
     Questionario2Page,
     RendaPage,
     PerfilquestionarioPage,
-    OpiniaoPage, 
+    OpiniaoPage,
     AjustesPage,
     DadoscadastraisPage,
     DadospessoaisPage,
@@ -130,7 +130,7 @@ import { Reserva5Page } from '../pages/reserva5/reserva5';
     EnderecotelefonePage,
     DadosbancariosPage,
     ListabancoPage,
-    DocumentosPage, 
+    DocumentosPage,
     MudaremailPage,
     NotificacoesPage,
     TrocarsenhaPage,
